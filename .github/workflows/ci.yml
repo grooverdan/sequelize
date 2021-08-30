@@ -104,11 +104,11 @@ jobs:
             dialect: mysql
             node-version: 12
           - name: MariaDB 10.3
-            image: mariadb:10.3
+            image: quay.io/mariadb-foundation/mariadb-devel:10.3
             dialect: mariadb
             node-version: 10
-          - name: MariaDB 10.3
-            image: mariadb:10.3
+          - name: MariaDB 10.7
+            image: quay.io/mariadb-foundation/mariadb-devel:10.7
             dialect: mariadb
             node-version: 12
     name: ${{ matrix.name }} (Node ${{ matrix.node-version }})
