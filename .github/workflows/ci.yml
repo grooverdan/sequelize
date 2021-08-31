@@ -103,10 +103,26 @@ jobs:
             image: mysql:5.7
             dialect: mysql
             node-version: 12
+          - name: MariaDB 10.2
+            image: quay.io/mariadb-foundation/mariadb-devel:10.2
+            dialect: mariadb
+            node-version: 10
           - name: MariaDB 10.3
             image: quay.io/mariadb-foundation/mariadb-devel:10.3
             dialect: mariadb
             node-version: 10
+          - name: MariaDB 10.4
+            image: quay.io/mariadb-foundation/mariadb-devel:10.4
+            dialect: mariadb
+            node-version: 10
+          - name: MariaDB 10.5
+            image: quay.io/mariadb-foundation/mariadb-devel:10.5
+            dialect: mariadb
+            node-version: 12
+          - name: MariaDB 10.6
+            image: quay.io/mariadb-foundation/mariadb-devel:10.6
+            dialect: mariadb
+            node-version: 12
           - name: MariaDB 10.7
             image: quay.io/mariadb-foundation/mariadb-devel:10.7
             dialect: mariadb
